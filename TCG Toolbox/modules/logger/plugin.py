@@ -1,5 +1,6 @@
 from PySide6.QtCore import Qt
-from .panel import LogPanel
+from modules.logger.panel import LogPanel
+
 
 def register(main_window):
     panel = LogPanel()
